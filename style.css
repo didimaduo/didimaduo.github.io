@@ -29,10 +29,10 @@ h1:hover {
     max-width: 350px;
     width: 90%;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    display: flex;              /* nieuw */
-    flex-direction: column;     /* elementen onder elkaar */
-    align-items: center;        /* horizontaal centreren */
-    justify-content: center;    /* verticaal centreren binnen de card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card:hover {
@@ -71,7 +71,7 @@ h1:hover {
     height: 40px;
     border-radius: 50%;
     border: 6.4px solid #000000;
-    margin-top: 1.5rem;          /* zorgt voor ruimte onder de titel */
+    margin-top: 1.5rem;
     animation: spinner-bulqg1 0.8s infinite linear alternate,
                spinner-oaa3wk 1.6s infinite linear;
 }
@@ -93,4 +93,5 @@ h1:hover {
    100%  { transform: scaleY(-1) rotate(-135deg); }
 
 }
+
 
