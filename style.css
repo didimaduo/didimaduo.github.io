@@ -11,6 +11,10 @@ body {
     align-items: center;
 }
 
+h1 {
+    user-select: none;
+}
+
 h1:hover {
     transform: scale(1.1);
     transition: transform 0.2s ease;
@@ -89,3 +93,4 @@ h1:hover {
    100%  { transform: scaleY(-1) rotate(-135deg); }
 
 }
+
